@@ -1,0 +1,5 @@
+%x(t)=A*sen(2pi*f0*t)    f0=frequencia    T=!
+ta=0.01;
+t = 0:Ta:5;
+x=2*sin(4*pi*t);
+plot(t,x);
